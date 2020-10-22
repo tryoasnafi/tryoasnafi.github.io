@@ -1,0 +1,57 @@
+<header class="navbar-light shadow-sm mb-5 p-2 bg-white rounded">
+  <div class="container">
+    <div class="row justify-content-center align-items-center pt-2">
+      <!-- Begin Social Media -->
+      <div class="col-md-4 customarea">
+        <a target="_blank" href="{{ .Site.Social.github }}" class="btn btn-outline-secondary rounded-pill px-3"><i class="fab fa-github"></i><span class="pl-2">github</span></a>
+        <a target="_blank" href="{{ .Site.Social.facebook }}" class="px-3"><i class="fab fa-facebook-f fa-lg text-primary"></i></a>
+        <a target="_blank" href="mailto:{{ .Site.Social.email }}"><i class="fab fa-google-plus-g fa-lg text-danger"></i></a>
+      </div>
+      <!-- End Social Media -->
+      <!-- Begin Logo -->
+      <div class="col-md-4 text-md-center">
+        <a class="navbar-brand" href="#">
+          <img src="/img/logo.svg" alt="">
+          <span>Mas Asna</span>
+        </a>
+      </div>
+      <!-- End Logo -->
+      <!-- Begin Search -->
+      <div class="col-md-4 searcharea">
+        <form class="form-inline my-2 my-lg-0 justify-content-end">
+          <div class="input-group">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" aria-describedby="button-search">
+            <div class="input-group-append">
+              <button class="btn btn-outline-success btn-md-block my-1 my-sm-0" type="submit" id="button-search">Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- End Search -->
+    </div>
+    <div class="navarea">
+      <nav class="navbar navbar-expand-md">
+        <button class="navbar-toggler d-lg-none navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" id="">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto text-uppercase text-secondary">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Action 1</a>
+                <a class="dropdown-item" href="#">Action 2</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
