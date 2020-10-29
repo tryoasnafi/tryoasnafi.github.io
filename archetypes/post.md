@@ -4,7 +4,10 @@ slug: {{ .BaseFileName }}
 date: {{ .Date }}
 draft: true
 
-type: page
+type: post
+
+tags:
+    - tag
 
 image: ""
 description: ""

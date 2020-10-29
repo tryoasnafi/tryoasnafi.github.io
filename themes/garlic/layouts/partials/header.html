@@ -1,41 +1,40 @@
-<header class="navbar-light shadow-sm mb-5 p-2 bg-white rounded">
-  <div class="container">
-    <div class="row justify-content-center align-items-center pt-2">
-      <!-- Begin Social Media -->
-      <div class="col-md-4 customarea">
+<header class="navbar-light shadow-sm mb-5 bg-white rounded">
+  <div class="container-lg">
+    <div class="d-md-flex row align-items-center pt-2">
+      <!-- Social Media -->
+      <div class="col-md-4 d-xs-none d-none d-md-block">
         <a target="_blank" href="{{ .Site.Social.github }}" class="btn btn-outline-secondary rounded-pill px-3"><i class="fab fa-github"></i><span class="pl-2">github</span></a>
         <a target="_blank" href="{{ .Site.Social.facebook }}" class="px-3"><i class="fab fa-facebook-f fa-lg text-primary"></i></a>
         <a target="_blank" href="mailto:{{ .Site.Social.email }}"><i class="fab fa-google-plus-g fa-lg text-danger"></i></a>
       </div>
-      <!-- End Social Media -->
-      <!-- Begin Logo -->
-      <div class="col-md-4 text-md-center">
+      <!-- Logo -->
+      <div class="col-4 col-md-4 text-md-center">
         <a class="navbar-brand" href="#">
           <img src="/img/logo.svg" alt="">
           <span>Mas Asna</span>
         </a>
       </div>
-      <!-- End Logo -->
-      <!-- Begin Search -->
-      <div class="col-md-4 searcharea">
-        <form class="form-inline my-2 my-lg-0 justify-content-end">
+      <!-- Search -->
+      <div class="col-8 col-md-4 d-flex justify-content-end">
+        <form class="my-2 my-lg-0 ">
           <div class="input-group">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" aria-describedby="button-search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" aria-describedby="button-search">
             <div class="input-group-append">
-              <button class="btn btn-outline-success btn-md-block my-1 my-sm-0" type="submit" id="button-search">Search</button>
+              <button class="btn btn-outline-success" type="submit" id="button-search"><i class="fas fa-search"></i></button>
             </div>
           </div>
         </form>
+        <button class="navbar-toggler-right d-md-none ml-2" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-      <!-- End Search -->
+      <!-- Hamburger icon -->
+
     </div>
     <div class="navarea">
       <nav class="navbar navbar-expand-md">
-        <button class="navbar-toggler d-lg-none navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" id="">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto text-uppercase text-secondary">
+          <ul class="navbar-nav mt-lg-0 mx-auto text-uppercase text-secondary">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -44,7 +43,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-              <div class="dropdown-menu" aria-labelledby="dropdownId">
+              <div class="dropdown-menu mx-3 mb-2" aria-labelledby="dropdownId">
                 <a class="dropdown-item" href="#">Action 1</a>
                 <a class="dropdown-item" href="#">Action 2</a>
               </div>

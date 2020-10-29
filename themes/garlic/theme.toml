@@ -3,11 +3,11 @@
 
 name = "Garlic"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+licenselink = "https://github.com/tryoasnafi/garlic/blob/main/LICENSE"
+description = "Simple Bootstrap 4 Theme Inspired by medium"
 homepage = "http://example.com/"
-tags = []
-features = []
+tags = ["blog", "personal", "portfolio", "medium"]
+features = ["archive", "disqus"]
 min_version = "0.41.0"
 
 [author]
