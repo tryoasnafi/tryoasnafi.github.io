@@ -1,15 +1,16 @@
 baseURL = "https://tryoasnafi.my.id/"
 languageCode = "id-ID"
 defaultContentLanguage = "id"
-footnotereturnlinkcontents = "↩"
-
 title = "Tulisan harian asnafi"
-
-googleAnalytics = ""
 
 theme = "garlic"
 
+googleAnalytics = ""
+disqusShortname = ""
+
 enableEmoji = true
+
+footnotereturnlinkcontents = "↩"
 
 [author]
     name = "Tryo Asnafi"
