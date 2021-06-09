@@ -1,7 +1,1 @@
-<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
- <g>
-  <title>Layer 1</title>
-  <path id="svg_1" d="m0.5,31.84668c0,-17.31861 14.02807,-31.34668 31.34668,-31.34668c17.31861,0 31.34668,14.02807 31.34668,31.34668c0,17.31861 -14.02807,31.34668 -31.34668,31.34668c-17.31861,0 -31.34668,-14.02807 -31.34668,-31.34668z" stroke-width="2" stroke="#fff" fill="#2c786c"/>
-  <text transform="matrix(2.23849, 0, 0, 1.47406, -25.3164, -18.9164)" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="30" id="svg_5" y="43.13127" x="16.75494" fill="#ffffff">A</text>
- </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><g><title>Layer 1</title><path id="svg_1" fill="#2c786c" stroke="#fff" stroke-width="2" d="m0.5,31.84668c0,-17.31861 14.02807,-31.34668 31.34668,-31.34668c17.31861,0 31.34668,14.02807 31.34668,31.34668c0,17.31861 -14.02807,31.34668 -31.34668,31.34668c-17.31861,0 -31.34668,-14.02807 -31.34668,-31.34668z"/><text id="svg_5" x="16.755" y="43.131" fill="#fff" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="30" text-anchor="start" transform="matrix(2.23849, 0, 0, 1.47406, -25.3164, -18.9164)" xml:space="preserve">A</text></g></svg>
